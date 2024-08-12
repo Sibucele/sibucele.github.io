@@ -275,6 +275,35 @@ section{
     margin-left: 5px;
     margin-bottom: rem;  
 }
+.game{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center; 
+    background-size: 150vh 80vh;
+    background-position: center;
+    align-items: center;
+
+}
+.game .content {
+    text-align: center;
+}
+
+.game .content h{
+    margin-top: 50px;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.game .content h2{
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
 
 .enquiries .row{
     margin-left: 400px;
